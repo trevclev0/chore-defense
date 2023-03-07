@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "packageManager": "yarn@3.4.1",
   "scripts": {
+    "coverage": "yarn test --collectCoverage",
+    "coverage:watch": "yarn test --collectCoverage --watch",
+    "test": "yarn node --experimental-vm-modules $(yarn bin jest)",
+    "test:watch": "yarn test --collectCoverage --watch",
     "postinstall": "husky install"
   },
   "type": "module",
@@ -14,6 +18,8 @@
   "devDependencies": {
     "commitizen": "^4.3.0",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "jest": "^29.5.0",
+    "node-notifier": "^10.0.1"
   }
 }
