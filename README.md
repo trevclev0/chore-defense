@@ -9,3 +9,6 @@ performed, and more. In other words, a gamified dashboard used to sign up for ch
 
 ## Installation
 1. `yarn install`
+
+## Run Unit Tests and Coverage
+1. `yarn test`
