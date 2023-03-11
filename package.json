@@ -4,7 +4,7 @@
   "packageManager": "yarn@3.4.1",
   "scripts": {
     "coverage": "yarn test --collectCoverage",
-    "coverage:watch": "yarn test --collectCoverage --watch",
+    "coverage:watch": "yarn coverage --watch",
     "test": "yarn node --experimental-vm-modules $(yarn bin jest)",
     "test:watch": "yarn test --watch",
     "postinstall": "husky install"
