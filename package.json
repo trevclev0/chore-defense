@@ -6,7 +6,7 @@
     "coverage": "yarn test --collectCoverage",
     "coverage:watch": "yarn test --collectCoverage --watch",
     "test": "yarn node --experimental-vm-modules $(yarn bin jest)",
-    "test:watch": "yarn test --collectCoverage --watch",
+    "test:watch": "yarn test --watch",
     "postinstall": "husky install"
   },
   "type": "module",
