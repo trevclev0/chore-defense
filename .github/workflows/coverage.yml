@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     runs-on: ${{ matrix.os }}
-    name: Test Coverage - Node.js ${{ matrix.node-version }}
+    name: Test Coverage - Node.js ${{ matrix.node-version }} on ${{ matrix.os }}
 
     strategy:
       matrix:
